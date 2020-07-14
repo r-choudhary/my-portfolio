@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 5px 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 2em;
+  width: 1080px;
+}
+
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.tag-line {
+  font-size: medium;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+
+.section-wrapper {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 70%;
+  height: 75vh;
+}
+
+.my-pic {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.links ul li {
+  float: right;
+}
+
+.links ul li a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: medium;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border: 1px solid lightgrey;
+}
+/*# sourceMappingURL=main.css.map */
